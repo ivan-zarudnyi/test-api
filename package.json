@@ -1,0 +1,25 @@
+{
+  "name": "test-task",
+  "author": "Ivan Zarudnyi",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^13.2.1",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "lodash": "^4.17.10",
+    "require-all": "^2.2.0",
+    "sequelize": "^4.37.7",
+    "serialize-error": "^2.1.0",
+    "sqlite3": "^4.0.0",
+    "body-parser": "latest"
+  }
+}
